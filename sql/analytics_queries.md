@@ -24,7 +24,7 @@ group by 1;
 <details>
 <summary>Output</summary>
 
-![q1](https://github.com/user-attachments/assets/814c6417-6f46-46f8-b87e-8043da5a1750)
+![q1](https://github.com/user-attachments/assets/ee6d1604-b6b1-4738-b483-ba274417d8f5)
 
 
 </details>
@@ -51,7 +51,7 @@ limit 10;
 <details>
 <summary>Output</summary>
 
-![q2](https://github.com/user-attachments/assets/49765367-416b-48ed-a371-da02fa124f5b)
+![q2](https://github.com/user-attachments/assets/4ddb609a-45a4-47bb-9c64-5efd3e35f1d9)
 
 
 </details>
@@ -80,7 +80,7 @@ group by 1;
 <details>
 <summary>Output</summary>
 
-![q3](https://github.com/user-attachments/assets/d2557125-cc41-44d0-ae79-1f3d5d09eaf4)
+![q3](https://github.com/user-attachments/assets/677ef7d6-97df-4860-b6af-b1d936a12ce9)
 
 
 </details>
@@ -108,7 +108,7 @@ where rn <= 3;
 <details>
 <summary>Output</summary>
 
-![q4](https://github.com/user-attachments/assets/0b98fe26-813c-445d-b2fd-a828f39429f9)
+![q4](https://github.com/user-attachments/assets/a8d7c07b-11e7-4a4e-a89e-41a3e65b2599)
 
 
 </details>
@@ -132,7 +132,7 @@ order by 2 desc;
 <details>
 <summary>Output</summary>
 
-![q5](https://github.com/user-attachments/assets/a07d8f07-36b4-4037-bbb8-00cc532d5271)
+![q5](https://github.com/user-attachments/assets/5ae16c6b-7234-41f9-852a-d9972d32cbdf)
 
 
 </details>
@@ -158,7 +158,7 @@ group by 1, 2;
 <details>
 <summary>Output</summary>
 
-![q6](https://github.com/user-attachments/assets/b3885a74-d022-4e40-bd26-ac0691a64632)
+![q6](https://github.com/user-attachments/assets/399b8e6f-d5a5-4f7d-8408-792c23e52c40)
 
 
 </details>
@@ -187,7 +187,7 @@ qualify row_number() over (partition by city order by total_reviews desc) <= 5;
 <details>
 <summary>Output</summary>
 
-![q7](https://github.com/user-attachments/assets/ac7b46cb-dd37-4ac4-b176-28e1c0f55242)
+![q7](https://github.com/user-attachments/assets/19331996-2b17-40d3-bc9d-97943ac7536d)
 
 
 </details>
@@ -213,7 +213,7 @@ having count(*) >= 100;
 <details>
 <summary>Output</summary>
 
-![q8](https://github.com/user-attachments/assets/ce4b4a44-7025-4bda-8261-5ea9a0ce8308)
+![q8](https://github.com/user-attachments/assets/36889f90-e08e-4e3d-bc52-2c929179a3b2)
 
 
 </details>
@@ -240,7 +240,7 @@ limit 10;
 <details>
 <summary>Output</summary>
 
-![q9](https://github.com/user-attachments/assets/c9f91031-709a-4a17-874c-39b75fa10c57)
+![q9](https://github.com/user-attachments/assets/f3ecd933-39bf-4aca-837e-1eeb66a015c9)
 
 
 </details>
