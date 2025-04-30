@@ -1,6 +1,9 @@
 ## 🧠 Yelp Reviews Analytics Pipeline (AWS + Snowflake + Python)
 
-An end-to-end analytics pipeline where I ingested, transformed, and analysed [**Yelp’s open review dataset**](https://business.yelp.com/data/resources/open-dataset/) using AWS S3, Snowflake, and Python UDFs — covering semi-structured JSON processing, sentiment analysis, and SQL-based insights at scale.
+This project builds an end-to-end analytics pipeline to extract insights from [**Yelp’s open review dataset**](https://business.yelp.com/data/resources/open-dataset/), which contains millions of user-generated reviews, business metadata, and ratings across industries such as restaurants, retail, automotive, and healthcare.
+Yelp is a widely used platform for discovering and reviewing local businesses. Users leave textual reviews and star ratings that reflect their customer experience. These reviews represent rich, real-world data ideal for performing sentiment analysis, behavioural analytics, and performance benchmarking.
+
+In this project, I ingested and transformed over 7 million reviews using AWS S3 and Snowflake, applied Python-based sentiment classification directly within Snowflake, and used advanced SQL techniques to extract business insights — all while handling large-scale semi-structured JSON efficiently in the cloud.
 
 ---
 
