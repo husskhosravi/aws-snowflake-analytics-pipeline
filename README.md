@@ -13,7 +13,7 @@ In this project, I ingested and transformed over 7 million reviews using AWS S3 
 - Ingested **~7 million Yelp reviews (5GB JSON)** into AWS S3, then into **Snowflake** as semi-structured data.
 - Created a **Python-based sentiment analysis UDF** using `textblob`, executed directly within Snowflake.
 - Converted raw JSON data to tabular form using Snowflake SQL, handled nested fields and types.
-- Solved **10 real-world SQL problems** including joins, aggregations, rankings, lateral splits, and sentiment-based filtering.
+- Solved **9 real-world SQL problems** including joins, aggregations, rankings, lateral splits, and sentiment-based filtering.
 
 ![workflow](https://github.com/user-attachments/assets/d2c3c0ad-5062-4574-bcc6-2ed277bd12e3)
 
