@@ -91,8 +91,8 @@ Here’s how different reviews are scored using analyze_sentiment:
 
 ✅ This let me slice and analyse the data by emotional tone without exporting it to an external Python environment.
 
-#### 📈 Example Output
-![polarities_snippet_for_illustration](https://github.com/user-attachments/assets/9b89266e-55bb-49e8-9121-034a3ad96d10)
+#### 📈 Example Output for illustration
+![polarities_snippet_for_illustration](https://github.com/user-attachments/assets/a80ddb8e-d392-4058-a68c-a431311f6341)
 
 ---
 
