@@ -79,7 +79,10 @@ def analyze_sentiment(text):
     else:
         return 'negative'
 ```
+#### 📈 Example Output
+![polarities_snippet_for_illustration](https://github.com/user-attachments/assets/c8260bac-4ddd-4362-b318-c2ad3a0f19f6)
 
+Here’s how different reviews are scored using analyze_sentiment:
 - The function was registered in Snowflake via Python UDFs.
 - Executed directly inside SQL queries for **real-time classification**.
 - Returned a labelled sentiment (`positive`, `neutral`, or `negative`) for each review.
