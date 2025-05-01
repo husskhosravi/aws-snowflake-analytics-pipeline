@@ -106,21 +106,23 @@ Here’s how different reviews are scored using analyze_sentiment:
 
 ---
 
-### Data Ingestion to Snowflake from AWS S3
+### 📥 Data Ingestion to Snowflake from AWS S3
 
 To load the Yelp review and business datasets into Snowflake directly from S3, I used the COPY INTO command with Snowflake’s native S3 integration. This requires generating an AWS access key ID and secret key and granting read access.
 
 Here’s the command to load Yelp reviews (in JSON format):
 
+```sql
 CREATE OR REPLACE TABLE yelp_reviews (review_text VARIANT);
 
 COPY INTO yelp_reviews
-FROM 's3://namastesql/yelp/'
+FROM 's3://<bucket>/yelp/'
 CREDENTIALS = (
     AWS_KEY_ID = '<your-access-key-id>'
     AWS_SECRET_KEY = '<your-secret-access-key>'
 )
 FILE_FORMAT = (TYPE = JSON);
+```
 
 Repeat the same process for the business dataset by creating a new table and updating the path. Finally, I created two tables:
 
