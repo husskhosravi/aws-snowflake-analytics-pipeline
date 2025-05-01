@@ -106,9 +106,23 @@ Here’s how different reviews are scored using analyze_sentiment:
 
 ---
 
-### ✅ Data Modelling
+### Data Ingestion to Snowflake from AWS S3
 
-Created two final tables:
+To load the Yelp review and business datasets into Snowflake directly from S3, I used the COPY INTO command with Snowflake’s native S3 integration. This requires generating an AWS access key ID and secret key and granting read access.
+
+Here’s the command to load Yelp reviews (in JSON format):
+
+CREATE OR REPLACE TABLE yelp_reviews (review_text VARIANT);
+
+COPY INTO yelp_reviews
+FROM 's3://namastesql/yelp/'
+CREDENTIALS = (
+    AWS_KEY_ID = '<your-access-key-id>'
+    AWS_SECRET_KEY = '<your-secret-access-key>'
+)
+FILE_FORMAT = (TYPE = JSON);
+
+Repeat the same process for the business dataset by creating a new table and updating the path. Finally, I created two tables:
 
 - tbl_yelp_reviews: review_id, business_id, user_id, date, stars, text, sentiment
 - tbl_yelp_businesses: business_id, name, city, state, postal_code, categories, stars, review_count
