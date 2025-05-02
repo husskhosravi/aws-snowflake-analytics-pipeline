@@ -127,7 +127,7 @@ FILE_FORMAT = (TYPE = JSON);
 Repeat the same process for the business dataset by creating a new table and updating the path. Finally, I created two tables:
 
 - tbl_yelp_reviews: review_id, business_id, user_id, date, stars, text, sentiment
-- tbl_yelp_businesses: business_id, name, city, state, postal_code, categories, stars, review_count
+- tbl_yelp_businesses: business_id, name, city, state, categories, stars, review_count
 
 ---
 
