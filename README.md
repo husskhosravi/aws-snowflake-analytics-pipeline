@@ -97,15 +97,6 @@ Here’s how different reviews are scored using analyze_sentiment:
 
 ---
 
-### 🧪 Key Features
-
-- ✅ Loaded raw JSON as `VARIANT` into Snowflake  
-- ✅ Flattened nested fields and casted to native types  
-- ✅ Used Python UDFs for review sentiment  
-- ✅ Answered real-world analytics questions with SQL
-
----
-
 ### 📥 Data Ingestion to Snowflake from AWS S3
 
 To load the Yelp review and business datasets into Snowflake directly from S3, I used the COPY INTO command with Snowflake’s native S3 integration. This requires generating an AWS access key ID and secret key and granting read access.
@@ -128,6 +119,12 @@ Repeat the same process for the business dataset by creating a new table and upd
 
 - tbl_yelp_reviews: review_id, business_id, user_id, date, stars, text, sentiment
 - tbl_yelp_businesses: business_id, name, city, state, categories, stars, review_count
+
+Quick recap of what I’ve done so far:
+
+- ✅ Loaded raw JSON as `VARIANT` into Snowflake  
+- ✅ Flattened nested fields and casted to native types [Code in here](https://github.com/husskhosravi/aws-snowflake-analytics-pipeline/blob/main/data_scripts/data_transformation.sql) 
+- ✅ Used Python UDFs for review sentiment  
 
 ---
 
