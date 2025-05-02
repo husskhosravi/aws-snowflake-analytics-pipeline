@@ -123,7 +123,7 @@ Repeat the same process for the business dataset by creating a new table and upd
 Quick recap of what I’ve done so far:
 
 - ✅ Loaded raw JSON as `VARIANT` into Snowflake  
-- ✅ Flattened nested fields and casted to native types [Code in here](https://github.com/husskhosravi/aws-snowflake-analytics-pipeline/blob/main/data_scripts/data_transformation.sql) 
+- ✅ Flattened nested fields and casted to native types -> [Code in here](https://github.com/husskhosravi/aws-snowflake-analytics-pipeline/blob/main/data_scripts/data_transformation.sql) 
 - ✅ Used Python UDFs for review sentiment  
 
 ---
