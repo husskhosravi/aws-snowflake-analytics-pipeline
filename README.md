@@ -166,7 +166,7 @@ LIMIT 10;
 ```
 ---
 
-### 📈 Insights Generated
+### 📈 Example of Insights Generated
 
 - Restaurants dominate Yelp in both **volume and positivity** of reviews.
 - Top users who have reviewed most businesses in the **Restaurants** category.
