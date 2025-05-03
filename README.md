@@ -4,7 +4,7 @@ This project builds an end-to-end analytics pipeline to extract insights from [*
 
 Yelp is a widely used platform for discovering and reviewing local businesses. Users leave textual reviews and star ratings that reflect their customer experience. These reviews represent rich, real-world data ideal for performing sentiment analysis, behavioural analytics, and performance benchmarking.
 
-In this project, I ingested and transformed over 7 million reviews using AWS S3 and Snowflake, applied Python-based sentiment classification directly within Snowflake, and used advanced SQL techniques to extract business insights — all while handling large-scale semi-structured JSON efficiently in the cloud.
+In this project, I ingested and transformed over 7 million reviews on Yelp using AWS S3 and Snowflake, applied Python-based sentiment classification directly within Snowflake, and used advanced SQL techniques to extract business insights — all while handling large-scale semi-structured JSON efficiently in the cloud.
 
 ---
 
