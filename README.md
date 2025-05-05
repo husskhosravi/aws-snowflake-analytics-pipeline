@@ -181,7 +181,7 @@ LIMIT 10;
 ├── README.md
 ├── /sql
 │   └── analytics_queries.md
-├── /data_script
+├── /data_scripts
 │   └── data_transformation.sql
 │   └── split_files.py
 ├── /udf
