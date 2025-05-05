@@ -183,6 +183,6 @@ LIMIT 10;
 │   └── analytics_queries.md
 ├── /data_script
 │   └── data_transformation.sql
-│   └── split_json_file.py
+│   └── split_files.py
 ├── /udf
     └── sentiment_udf.py
